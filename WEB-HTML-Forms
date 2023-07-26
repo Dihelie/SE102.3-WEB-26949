@@ -1,0 +1,44 @@
+<html>
+<body >
+
+<h1> Registration Form </h1>
+<br>
+
+<form name="form1" method="post" action="new.php">
+<table border=0>
+<tr height=50 >
+<td width=100>First Name </td>
+<td width=100><input type="text" name="fn"></td>
+</tr>
+<tr height=50 >
+<td width=100>Last Name </td>
+<td width=100><input type="text" name="ln"></td>
+</tr>
+<tr height=50 >
+<td width=100>Mobile Number </td>
+<td width=100><input type="text" name="mn"></td>
+</tr>
+<tr height=50 >
+<td width=100>Gender</td>
+<td width=100><input type="radio" name="gender" value="F">Female</td>
+<td width=100><input type="radio" name="gender" value="M">Male</td>
+</tr>
+<tr height=50 >
+<td width=100>Email </td>
+<td width=100><input type="text" name="em"></td>
+</tr><br>
+Favorite Music <input type="checkbox" name="q1" value="ol">Pop
+<input type="checkbox" name="q2" value="al">Rock
+<input type="checkbox" name="q3" value="u">Other <br>
+<tr height=50 >
+<td width=100>Additional Details </td>
+<td width=100><textarea id="msg" name="ad" rows="10" cols="30"></textarea></td>
+</tr><br>
+    
+<input type="submit" name="d" value="Submit"> &nbsp; 
+<input type="reset" name="g" value="Reset"><br><br>
+
+</form>
+
+</body>
+</html>
