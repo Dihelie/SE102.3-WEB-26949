@@ -1,0 +1,128 @@
+Q01.
+
+<html>
+<body>
+
+<h1> HTML Tables </h1>
+<br>
+
+<table border=1>
+<tr height=50>
+<td width=100><center><b>First Name</b></center></td>
+<td width=100><center><b>Last Name</b></center></td>
+<td width=100><center><b>Age</b></center></td>
+</tr>
+<tr height=50>
+<td width=100><center>Amal</center></td>
+<td width=100><center>Fernando</center></td>
+<td width=100><center>39</center></td>
+</tr>
+<tr height=50>
+<td width=100><center>Sahan</center></td>
+<td width=100><center>Bandara</center></td>
+<td width=100><center>33</center></td>
+</tr>
+<tr height=50>
+<td width=100><center>Kamal</center></td>
+<td width=100><center>Perera</center></td>
+<td width=100><center>36</center></td>
+<tr height=50>
+<td width=100><center>Nimal</center></td>
+<td width=100><center>Ratnayke</center></td>
+<td width=100><center>36</center></td>
+</tr>
+</body>
+</html>
+
+
+Q02.
+
+<html>
+<body>
+
+<h1> HTML Tables </h1>
+<br>
+
+<table border=1>
+<tr height=50>
+<td width=100><center>America</center></td>
+<td width=100><center>Canada</center></td>
+    <td width=100><center>Alaska</center></td>
+</tr>
+<tr height=50>
+<td colspan="2"><font color="red"><center>Mexico</center></font></td>
+<td rowspan="2"><center>Jamaica</center></td>
+</tr>
+<tr height=50>
+<td width=100><font color="blue"><center>California</center></font></td>
+<td width=100><font color="green"><center>Brazil</center></font></td>
+</tr>
+
+</body>
+</html>
+
+Q03.
+
+<html>
+<body>
+
+<h1><center>Timetable</center></h1>
+<br>
+
+<table border=2>
+<tr height=50>
+<td width=100><center><b>Monday</b></center></td>
+<td width=100><center><b>Tuesday</b></center></td>
+<td width=100><center><b>Wednesday</b></center></td>
+<td width=100><center><b>Thursday</b></center></td>
+<td width=100><center><b>Friday</b></center></td>
+</tr>
+<tr height=50>
+<td style="background-color: yellow" width=100 rowspan="2"><center>Maths</center></td>
+<td style="background-color: yellow" width=100><center>Geography</center></td>
+<td style="background-color: yellow" width=100 rowspan="3"><center>Literature</center></td>
+<td style="background-color: yellow" width=100><center>Maths</center></td>
+<td style="background-color: yellow" width=100><center>Drama</center></td>
+</tr>
+<tr height=50>
+<td style="background-color: yellow" width=100><center>IT</center></td>
+<td style="background-color: yellow" width=100><center>English</center></td>
+<td style="background-color: yellow" width=100><center>Dancing</center></td>
+</tr>
+<tr height=50>
+<td style="background-color: yellow" width=100><center>Sinhala</center></td>
+<td style="background-color: yellow" width=100 rowspan="2"><center>Health</center></td>
+<td style="background-color: yellow" width=100 rowspan="2"><center>Music</center></td>
+<td style="background-color: yellow" width=100 rowspan="2"><center>Religion</center></td>
+</tr>
+<tr height=50>
+<td style="background-color: yellow" width=100><center>Enlgish</center></td>
+<td style="background-color: yellow" width=100><center>IT Lab</center></td>
+</tr>
+<tr height=50>
+<td colspan="5" style="background-color: blue"><center>Interval</center></td>
+</tr>
+<tr height=50>
+<td style="background-color: yellow" width=100><center>Religion</center></td>
+<td style="background-color: yellow" width=100><center>Maths</center></td>
+<td style="background-color: yellow" width=100><center>Health</center></td>
+<td style="background-color: yellow" width=100><center>Tamil</center></td>
+<td style="background-color: yellow" width=100><center>IT</center></td>
+</tr>
+<tr height=50>
+<td style="background-color: yellow" width=100 rowspan="2"><center>History</center></td>
+<td style="background-color: yellow" width=100 rowspan="3"><center>Drama</center></td>
+<td style="background-color: yellow" width=100 rowspan="2"><center>Library</center></td>
+<td style="background-color: yellow" width=100><center>IT Lab</center></td>
+<td style="background-color: yellow" width=100><center>Tamil</center></td>
+</tr>
+<tr height=50>
+<td style="background-color: yellow" width=100><center>Sinhala</center></td>
+<td style="background-color: yellow" width=100 rowspan="2"><center>Art</center></td>
+</tr>
+<tr height=50>
+<td style="background-color: yellow" width=100><center>Maths</center></td>
+<td style="background-color: yellow" width=100><center>Maths</center></td>
+<td style="background-color: yellow" width=100><center>Science</center></td>
+</tr>
+
