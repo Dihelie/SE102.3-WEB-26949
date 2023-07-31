@@ -1,0 +1,56 @@
+Q01. 
+<html>
+    <head>
+        <title>Q01</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+            <th height=1><center>Student Id</center></th>
+            <th><center>Student Name</center></th>
+            <th><center>Degree</center></th>
+            </tr>
+            <tr><td width=1>1002323</td>
+                <td>Nimesh Fernando</td>
+                <td>Bsc in IT</td>
+            </tr>
+            <tr>
+                <td><center>1002424</center></td>
+                <td><center>Lasadun Bandara</center></td>
+                <td><center>Bsc in Computer Science</center></td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
+
+
+Q02. 
+<html>
+    <head>
+        <title>Q02</title>
+    </head>
+    <body>
+        <ol type=i>
+            <li> C</li>
+            <li> C++</li>
+            <li> Java</li>
+            <li> Python</li>
+        </ol>
+    </body>
+</html>
+
+
+Q03. 
+<html>
+<head>
+    <title>Q03</title>
+    </head>
+<body>
+    <form name="form" method="post">
+    Name:<input type="text" name="na"><br>
+        Index Number:
+        <input  type="text" name="pwd"><br>
+    </form>
+    </body>
+</html>
