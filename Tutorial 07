@@ -1,0 +1,63 @@
+Tutorial 07:
+
+Q01:
+<html>
+<head>
+<title>Q01</title>
+</head>
+<body>
+
+<button onclick="showAlert()">Alert</button>
+<script>
+function showAlert()
+{
+window.alert("this is an alert.");
+}
+</script>
+
+</body>
+</html>
+
+
+Q02:
+<html>
+<head>
+<title>Q02</title>
+</head>
+<body>
+
+<script>
+window.onload=function()
+{
+getMarks();
+}
+function getMark()
+{
+for(var i=0;i<5;i++)
+{
+var a=parseInt(prompt("enter the marks:"));
+var total=parseInt(total+a);
+}
+document.write("total:",total);
+document.write("AVG:",(total/5));
+
+
+var button= document.createElemenet("button");
+button.innerHTML="Grade";
+button.onclick=function()
+{
+if(AVG>30)
+{
+alert("Congratulations");
+}
+else
+{
+alert("Better luck next time");
+}
+};
+document.body.appendChild(button);  
+
+</script>
+
+</body>
+</html>
