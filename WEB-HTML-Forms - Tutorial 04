@@ -1,45 +1,150 @@
 Tutorial 04:
+
+Q01:
 <html>
-<body >
-
-<h1> Registration Form </h1>
-<br>
-
-<form name="form1" method="post" action="new.php">
-<table border=0>
-<tr height=50 >
-<td width=100>First Name </td>
-<td width=100><input type="text" name="fn"></td>
-</tr>
-<tr height=50 >
-<td width=100>Last Name </td>
-<td width=100><input type="text" name="ln"></td>
-</tr>
-<tr height=50 >
-<td width=100>Mobile Number </td>
-<td width=100><input type="text" name="mn"></td>
-</tr>
-<tr height=50 >
-<td width=100>Gender</td>
-<td width=100><input type="radio" name="gender" value="F">Female</td>
-<td width=100><input type="radio" name="gender" value="M">Male</td>
-</tr>
-<tr height=50 >
-<td width=100>Email </td>
-<td width=100><input type="text" name="em"></td>
-</tr><br>
-Favorite Music <input type="checkbox" name="q1" value="ol">Pop
-<input type="checkbox" name="q2" value="al">Rock
-<input type="checkbox" name="q3" value="u">Other <br>
-<tr height=50 >
-<td width=100>Additional Details </td>
-<td width=100><textarea id="msg" name="ad" rows="10" cols="30"></textarea></td>
-</tr><br>
+    <head>
+        <title>Q01</title>
+    </head>
+    <body>
+        <center><h1>Registration Form</h1></center>
+        <form name="g" method="post" action="new.php">
+             <table border=0 align=center>
+                 <tr>
+                     <td>First Name:</td>
+                     <td><input type="text" name="fn"></td>
+                 </tr>
+                 <tr>
+                     <td>Last Name:</td>
+                     <td><input type="text" name="ln" ></td>
+                 </tr>
+                 <tr>
+                     <td>Mobile Number:</td>
+                     <td><input type="text" name="mn" ></td>
+                 </tr>
+                 <tr>
+                     <td>Gender:</td>
+                     <td>
+    <input type="radio" name="gen" value="M">male
+	<input type="radio" name="gen" value="F">female
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>Email:</td>
+                     <td><input type="text" name="em" ></td>
+                 </tr>
+                 <tr>
+                     <td>Favourite Music:</td>
+                     <td>
+            <input type="checkbox" id="check" name="check">
+<label for="check ">Pop </label>
+                          <input type="checkbox" id="check" name="check">
+<label for="check ">Rock</label>
+                          <input type="checkbox" id="check" name="check">
+<label for="check ">Other </label>
+                         
     
-<input type="submit" name="d" value="Submit"> &nbsp; 
-<input type="reset" name="g" value="Reset"><br><br>
-
+                 </tr>
+                 <tr>
+                     <td>Additional details:</td>
+                     
+                     <td>
+                         
+                        <textarea name="textarea" rows="10" cols="50"></textarea></td>
+                 </tr>
+                 <tr>
+                     <td>
+            <input type="checkbox" id="agree" name="agree">
+<label for="agree ">I agree to the terms and conditions. </label> </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <input type="submit" name="log" value="Submit"></td>
+                     <td>
+                        <input type="reset" name="rs" value="Reset">
+                         </td>
+                 </tr>
+                 
+            </table>	
 </form>
+    </body>
+</html>
 
-</body>
+
+Q02:
+<html>
+    <head>
+        <title>Q02</title>
+    </head>
+    <body>
+        <fieldset>
+		<legend>Car Registration</legend>
+        <form name="g" method="post">
+             <table border=0 align=center>
+                 <tr>
+                     <td>Owner Name</td>
+                     <td><input type="text" name="fn" placeholder="Owner Name"></td>
+                 </tr>
+                 <tr>
+                     <td>Email:</td>
+                     <td><input type="text" name="em" placeholder="Email" ></td>
+                 </tr>
+                 <tr>
+                     <td>Phone Number</td>
+                     <td><input type="text" name="mn" placeholder="Phone Number" ></td>
+                 </tr>
+                 <tr><td>Country</td>
+                     <td>
+                     <select name="Country">
+		<option value="S">Sri Lanka</option> 
+		<option value="	u"> UK</option> 
+		<option value="I"> india</option> 
+	</select>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>Car Model</td>
+                    <td><input type="text" name="model" ></td> 
+                 </tr>
+                 <tr>
+                     <td>Manufacture Year</td>
+                     <td>
+            <select name="yr">
+		<option value="S">Select Year</option> 
+		<option value="	u"> 1995</option> 
+		<option value="I"> 1886</option> 
+                         </select></td>
+                         
+    
+                 </tr>
+                 <tr><td>Transmission</td>
+                     
+                     <td>
+	<input type="radio" name="trans" value="m">Manual
+	<input type="radio" name="trans" value="au">Auto
+                     </td>
+                 </tr>
+                 <tr>
+                 <tr>
+                     <td>Other</td>             
+                     <td>
+                         
+                        <textarea name="textarea" rows="10" cols="50"></textarea></td>
+                 </tr>
+                 <tr>
+                     <td>
+            <input type="checkbox" id="agree" name="agree">
+<label for="agree ">I agree to the terms and conditions. </label> </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <input type="submit" name="log" value="Submit"></td>
+                     <td>
+                        <input type="reset" name="rs" value="Reset">
+                         </td>
+                 </tr>
+                 
+            </table>	
+</form>
+        </fieldset>
+    </body>
 </html>
