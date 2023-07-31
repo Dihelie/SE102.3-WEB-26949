@@ -1,0 +1,61 @@
+Tutorial 08:
+
+Q01:
+<html>
+<head>
+<title>Q01</title>
+<script>
+    function x()
+    {
+        document.bgColor="red";
+       
+    }  
+    function y()
+    {
+        document.bgColor="grey";
+       
+    }  
+function z()
+    {
+        document.bgColor="blue";
+       
+    }  
+function a()
+    {
+        document.bgColor="white";
+       
+    }  
+ </script>
+</head>
+
+<body>
+  <form name="log">
+    
+    <input type="button" name="cl" value="click" onmouseover="x()" onmouseout="a()">
+    
+<input type="button" name="cl" value="click" onmouseover="y()" onmouseout="a()">
+
+<input type="button" name="cl" value="click" onmouseover="z()" onmouseout="a()">
+
+    </form>
+</body>
+</html>
+
+
+Q02:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+
+<body>
+      <script>
+            var r = parseFloat(prompt("Enter radius: "));
+            document.write("Area: ",((Math.PI * r * r).toFixed(2)));
+      </script>  
+</body>
+</html>
